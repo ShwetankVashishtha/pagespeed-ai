@@ -1,0 +1,65 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# Frontend specific
+client/.vite/
+client/.next/
+client/out/
+client/dist/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Local runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: lockfiles (if using different pkg managers across client/server)
+client/package-lock.json
+server/package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Optional: Uploaded files / generated reports
+uploads/
+reports/
+public/reports/
+generated/
+data/
+scanner-results.json
+
+# Optional: Ignore frontend artifacts
+client/.env
+client/.DS_Store
+
+# Optional: Backup files
+*.bak
+*.tmp
