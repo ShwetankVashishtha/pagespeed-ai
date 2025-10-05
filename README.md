@@ -48,3 +48,56 @@ After scanning, results will appear in a **card/table layout**:
 
 ```http
 GET https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={URL}&key={API_KEY}
+```
+
+
+## 🚀 Running the Project Locally
+
+Follow these steps to set up and run the backend server on your local machine:
+
+---
+
+### 🧭 Step 1: Navigate to the Server Folder
+```bash
+cd server
+```
+
+## ⚙️ Local Setup & Server Run Guide
+
+Follow these steps to run the backend server locally:
+
+---
+
+### 🧩 Step 2: Install Dependencies
+```bash
+npm install
+```
+
+### 🔐 Step 3: Create Environment File
+
+In the **project root directory**, create a file named `.env` and add the following variables:
+
+```env
+PAGESPEED_API_KEY=<YOUR_PAGESPEED_API_KEY>
+PORT=4000
+```
+
+### ▶️ Step 4: Start the Local Server
+Run the following command to start your backend:
+
+```bash
+npm start
+```
+
+### 🌐 Step 5: Access the Server
+
+Once the server is up and running, open your browser and navigate to:
+
+🔗 **http://localhost:4000**
+
+---
+
+✅ **Tip:**  
+If the server doesn’t start automatically, ensure no other process is using port 4000 or update the `PORT` value in your `.env` file.
+
+
